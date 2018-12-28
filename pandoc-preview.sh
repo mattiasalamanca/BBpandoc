@@ -1,5 +1,4 @@
 #!/bin/bash
 PATH=$PATH:/usr/local/bin
 
-pandoc -f markdown -t html -smart --mathjax -s
-
+pandoc -f markdown+smart -t html --mathjax -s
